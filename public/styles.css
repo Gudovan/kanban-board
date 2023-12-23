@@ -1,0 +1,36 @@
+.body{
+    background-color: #c0d2d4;
+}
+
+
+.container{
+    margin: 4rem auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 90%;
+    display: flex;
+    
+    list-style-type: none;
+    
+}
+
+.card{
+    text-align: center;
+    max-width: 20rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0,0, 0,0.05),0 5px 20px rgba(0,0, 0,0.1);
+    background-color: #fff;
+    transition: all 100ms ease-in-out;
+
+}
+.card card-id{
+    font-size: 2em;
+    color: gray;
+    display: flex;
+    flex: 1;
+}
+.card card-title{
+
+color: black;}
